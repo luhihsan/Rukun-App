@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.ScenePembayaranController">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="294.0" layoutX="-9.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Group%20(8).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="196.0" fitWidth="264.0" layoutX="11.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Frame%20(7).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tagihan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="126.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Rectangle%2028.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="123.0" layoutY="245.0" text="TAGIHAN" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tagihan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/tagihan.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="112.0" layoutY="345.0" text="PEMBAYARAN" />
+      <Label layoutX="115.0" layoutY="472.0" text="KODE BAYAR" />
+      <ImageView fitHeight="82.0" fitWidth="154.0" layoutX="74.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Group%2018.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="40.0" layoutX="131.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Rectangle%2025.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnBack" fitHeight="25.0" fitWidth="45.0" layoutX="14.0" layoutY="13.0" onDragDetected="#ctrlBacktoMain" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/Vector%20(1)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="58.0" layoutY="423.0" mnemonicParsing="false" opacity="0.0" prefHeight="75.0" prefWidth="186.0" />
+      <Button layoutX="56.0" layoutY="190.0" mnemonicParsing="false" onAction="#Tagihan" opacity="0.0" prefHeight="78.0" prefWidth="194.0" />
+      <Button layoutX="55.0" layoutY="294.0" mnemonicParsing="false" onAction="#Pembayaran" opacity="0.0" prefHeight="88.0" prefWidth="192.0" />
+      <Button fx:id="btnBack_Pembayaran" layoutX="13.0" layoutY="8.0" mnemonicParsing="false" onAction="#ctrlBacktoMain" opacity="0.0" prefHeight="34.0" prefWidth="31.0" />
+   </children>
+</AnchorPane>

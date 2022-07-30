@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.SceneInventarisController">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="294.0" layoutX="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Group%20(8).png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="-2.0" layoutY="-1.0" prefHeight="567.0" prefWidth="294.0">
+         <children>
+            <ImageView fitHeight="98.0" fitWidth="257.0" pickOnBounds="true">
+               <VBox.margin>
+                  <Insets left="20.0" top="100.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@Image/tagihan.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="98.0" fitWidth="257.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Image/tagihan.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fitHeight="98.0" fitWidth="257.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Image/tagihan.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fitHeight="98.0" fitWidth="257.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Image/tagihan.png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="35.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/gelas.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="206.0" layoutY="507.0" mnemonicParsing="false" onAction="#checkout" prefHeight="34.0" prefWidth="67.0" style="-fx-background-radius: 10; -fx-background-color: EF9F9F;" text="BAYAR" textFill="WHITE" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="35.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/kursi.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="35.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/sound%20system.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="35.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/piring.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnBack" fitHeight="25.0" fitWidth="45.0" layoutX="22.0" layoutY="19.0" onDragDetected="#ctrlBacktoMain" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/Vector%20(1)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack_inventaris" layoutX="17.0" layoutY="16.0" mnemonicParsing="false" onAction="#ctrlBacktoMain" opacity="0.0" prefHeight="34.0" prefWidth="31.0" rotate="180.0" />
+      <CheckBox fx:id="CB3" layoutX="230.0" layoutY="334.0" mnemonicParsing="false" onAction="#handleCB3" prefHeight="17.0" prefWidth="15.0" />
+      <CheckBox fx:id="CB2" layoutX="230.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleCB2" prefHeight="17.0" prefWidth="15.0" />
+      <CheckBox fx:id="CB1" layoutX="230.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleCB1" prefHeight="17.0" prefWidth="15.0" />
+      <CheckBox fx:id="CB4" layoutX="230.0" layoutY="434.0" mnemonicParsing="false" onAction="#handleCB4" prefHeight="17.0" prefWidth="15.0" />
+      <Label layoutX="105.0" layoutY="115.0" text="GELAS">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelHarga" layoutX="20.0" layoutY="509.0" prefHeight="30.0" prefWidth="141.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="105.0" layoutY="135.0" text="1 Paket Berisi 50pcs" />
+      <Label layoutX="105.0" layoutY="153.0" text="HARGA : Rp 50.000">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="213.0" text="KURSI">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="233.0" text="1 Paket Berisi 50pcs" />
+      <Label layoutX="105.0" layoutY="251.0" text="HARGA : Rp 100.000">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="315.0" text="SOUND SYSTEM">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="335.0" text="1 Paket Sound System" />
+      <Label layoutX="105.0" layoutY="353.0" text="HARGA : Rp 250.000">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="417.0" text="PIRING">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="437.0" text="1 Paket Berisi 50pcs" />
+      <Label layoutX="105.0" layoutY="455.0" text="HARGA : Rp 50.000">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="38.0" layoutX="162.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/shopping-cart.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.SceneLoadingController">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="294.0" layoutX="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Loading.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="-3.0" layoutY="1.0" mnemonicParsing="false" onAction="#loading" opacity="0.0" prefHeight="561.0" prefWidth="294.0" text="Button" />
+   </children>
+</AnchorPane>

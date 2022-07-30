@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.SceneInputPengumumanController">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="294.0" layoutX="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Group%2011.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnBack" fitHeight="25.0" fitWidth="45.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/Vector%20(1)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="2.0" layoutY="4.0" mnemonicParsing="false" onAction="#back" opacity="0.0" prefHeight="53.0" prefWidth="52.0" text="Button" />
+      <TextField fx:id="tfJudul" layoutX="29.0" layoutY="74.0" prefHeight="35.0" prefWidth="234.0" promptText="Masukkan Judul" style="-fx-background-radius: 10;" />
+      <ChoiceBox fx:id="Cb1" layoutX="28.0" layoutY="139.0" prefHeight="35.0" prefWidth="234.0" style="-fx-background-radius: 10;" />
+      <TextField fx:id="tfwaktu" layoutX="31.0" layoutY="271.0" prefHeight="35.0" prefWidth="234.0" promptText="Masukkan Waktu" style="-fx-background-radius: 10;" />
+      <ImageView fitHeight="170.0" fitWidth="210.0" layoutX="139.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Frame%20(2).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfTempat" layoutX="31.0" layoutY="335.0" prefHeight="35.0" prefWidth="234.0" promptText="Masukkan Tempat" style="-fx-background-radius: 10;" />
+      <ImageView fitHeight="35.0" fitWidth="110.0" layoutX="95.0" layoutY="416.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Rectangle%206%20(2).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="127.0" layoutY="421.0" prefHeight="18.0" prefWidth="52.0" text="TAMBAH" textFill="WHITE">
+         <font>
+            <Font name="Tahoma" size="11.0" />
+         </font>
+      </Label>
+      <Button layoutX="93.0" layoutY="418.0" mnemonicParsing="false" onAction="#addPengumuman" opacity="0.0" prefHeight="35.0" prefWidth="110.0" text="Button" />
+      <DatePicker fx:id="dp1" layoutX="27.0" layoutY="205.0" prefHeight="35.0" prefWidth="234.0" promptText="Jadwal" />
+      <Label fx:id="warning" layoutX="87.0" layoutY="393.0" prefHeight="16.0" prefWidth="153.0" textFill="RED">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

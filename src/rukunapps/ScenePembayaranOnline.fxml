@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.ScenePembayaranOnlineController">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="299.0" layoutX="-9.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Group%20(8).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="196.0" fitWidth="264.0" layoutX="11.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Frame%20(7).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnBack" fitHeight="25.0" fitWidth="45.0" layoutX="14.0" layoutY="13.0" onDragDetected="#ctrlBacktoMain" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/Vector%20(1)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="54.0" layoutX="6.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/bca.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack_Pembayaran" layoutX="13.0" layoutY="8.0" mnemonicParsing="false" onAction="#ctrlBacktoMain" opacity="0.0" prefHeight="34.0" prefWidth="31.0" />
+      <Line endX="137.74725341796875" layoutX="142.0" layoutY="329.0" startX="-82.0" stroke="#bfbfbf" strokeLineCap="ROUND" />
+      <Label layoutX="76.0" layoutY="272.0" prefHeight="18.0" prefWidth="168.0" text="Bank BCA(Dicek Otomatis)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="305.0" opacity="0.63" text="Virtual Account Number XXXXXXXXXXXX">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="291.0" text="Hanya menerima transfer dari Bank BCA">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="338.0" prefHeight="18.0" prefWidth="189.0" text="Bank Mandiri(Dicek Otomatis)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="357.0" text="Hanya menerima transfer dari Bank Mandiri">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="369.0" opacity="0.63" text="Virtual Account Number XXXXXXXXXXXX">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="54.0" layoutX="9.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/bankmandiri.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="54.0" layoutX="9.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/BankBRI.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="398.0" prefHeight="18.0" prefWidth="189.0" text="Bank BRI(Dicek Otomatis)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="417.0" text="Hanya menerima transfer dari Bank BRI">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="429.0" opacity="0.63" text="Virtual Account Number XXXXXXXXXXXX">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="18.0" fitWidth="43.0" layoutX="9.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/BankBNI.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="458.0" prefHeight="18.0" prefWidth="189.0" text="Bank BNI(Dicek Otomatis)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="477.0" text="Hanya menerima transfer dari Bank BNI">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="489.0" opacity="0.63" text="Virtual Account Number XXXXXXXXXXXX">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOK" layoutX="9.0" layoutY="519.0" mnemonicParsing="false" onAction="#aksiKembali" prefHeight="41.0" prefWidth="272.0" style="-fx-background-color: FF869E;" text="KEMBALI KE MENU TAGIHAN" textFill="WHITE" />
+      <Line endX="137.74725341796875" layoutX="142.0" layoutY="390.0" startX="-82.0" stroke="#bfbfbf" strokeLineCap="ROUND" />
+      <Line endX="137.74725341796875" layoutX="142.0" layoutY="450.0" startX="-82.0" stroke="#bfbfbf" strokeLineCap="ROUND" />
+      <Line endX="137.74725341796875" layoutX="142.0" layoutY="511.0" startX="-82.0" stroke="#bfbfbf" strokeLineCap="ROUND" />
+   </children>
+</AnchorPane>

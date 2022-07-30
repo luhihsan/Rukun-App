@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.SceneHasilSuratLampiranController">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="294.0" layoutX="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Group%2011.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnBack" fitHeight="25.0" fitWidth="45.0" layoutX="23.0" layoutY="14.0" onDragDetected="#ctrlBacktoMain" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/Vector%20(1)%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnBack_Jadwal" layoutX="8.0" layoutY="10.0" mnemonicParsing="false" onAction="#ctrlBacktoMain" opacity="0.0" prefHeight="34.0" prefWidth="31.0" rotate="180.0" />
+      <ImageView fitHeight="131.0" fitWidth="167.0" layoutX="69.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Group%2021.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tvUtama" layoutY="171.0" prefHeight="396.0" prefWidth="292.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn fx:id="tvNama" prefWidth="112.79999083280563" style="-fx-background-color: WHITE;" text="Nama Pemohon" />
+          <TableColumn fx:id="tvKeterangan" prefWidth="180.7999725341797" style="-fx-background-color: WHITE;" text="Keterangan" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

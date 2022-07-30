@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rukunapps.SceneHasilJadwalRondaController_1">
+   <children>
+      <ImageView fx:id="backMain2" fitHeight="567.0" fitWidth="294.0" layoutX="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/X%20-%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="244.0" layoutX="20.0" layoutY="38.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Rectangle%201.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="kelompok1" layoutX="40.0" layoutY="50.0" prefHeight="31.0" prefWidth="101.0" text="Kelompok 1 ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="judul1" layoutX="58.0" layoutY="85.0" text="Menjaga Malam Tirakatan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hari1" layoutX="61.0" layoutY="107.0" prefHeight="18.0" prefWidth="150.0" text="Hari/Tanggal : 16 - 08-2022" />
+      <Label fx:id="tempat1" layoutX="60.0" layoutY="126.0" prefHeight="18.0" prefWidth="181.0" text="Tempat : Balai Pertemuan Warga" />
+      <ImageView fitHeight="125.0" fitWidth="244.0" layoutX="20.0" layoutY="172.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Rectangle%201.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="kelompok2" layoutX="40.0" layoutY="187.0" prefHeight="31.0" prefWidth="101.0" text="Kelompok 2 ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="judul2" layoutX="57.0" layoutY="219.0" text="Menjaga Malam Takbiran">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hari2" layoutX="58.0" layoutY="238.0" prefHeight="18.0" prefWidth="150.0" text="Hari/Tanggal : 24-08-2022" />
+      <Label fx:id="tempat2" layoutX="58.0" layoutY="255.0" prefHeight="18.0" prefWidth="181.0" text="Tempat : Masjid" />
+      <Label layoutX="40.0" layoutY="387.0" prefHeight="31.0" prefWidth="101.0" text="Kelompok 4 ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="125.0" fitWidth="244.0" layoutX="21.0" layoutY="306.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Rectangle%201.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="kelompok3" layoutX="40.0" layoutY="324.0" prefHeight="31.0" prefWidth="101.0" text="Kelompok 3 ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="judul3" layoutX="57.0" layoutY="352.0" text="Menjaga Hewan Qurban">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hari3" layoutX="58.0" layoutY="369.0" prefHeight="18.0" prefWidth="150.0" text="Hari/Tanggal : 25-08-2022" />
+      <Label fx:id="tempat3" layoutX="58.0" layoutY="385.0" prefHeight="18.0" prefWidth="181.0" text="Tempat : Posko Hewan Qurban" />
+      <ImageView fitHeight="125.0" fitWidth="244.0" layoutX="24.0" layoutY="435.0" pickOnBounds="true">
+         <image>
+            <Image url="@Image/Rectangle%201.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="kelompok4" layoutX="40.0" layoutY="447.0" prefHeight="31.0" prefWidth="101.0" text="Kelompok 4 ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="judul4" layoutX="57.0" layoutY="481.0" text="Menjaga Tirakatan ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hari4" layoutX="58.0" layoutY="501.0" prefHeight="18.0" prefWidth="150.0" text="Hari/Tanggal : 01-09-2022" />
+      <Label fx:id="tempat4" layoutX="58.0" layoutY="517.0" prefHeight="18.0" prefWidth="181.0" text="Tempat :  Balai Desa" />
+      <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="18.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Image/Vector%20(1)%20-%20Copy_1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="6.0" layoutY="3.0" mnemonicParsing="false" onAction="#BackToMain" opacity="0.0" prefHeight="37.0" prefWidth="47.0" />
+   </children>
+</AnchorPane>
